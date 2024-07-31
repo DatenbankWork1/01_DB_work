@@ -1,12 +1,7 @@
-source /workspace/01_DB_work/02_SQL_Tables/02a_db_table_SQL.sql
-source /workspace/01_DB_work/02_SQL_Tables/02b_db_table_SQL.sql
-source /workspace/01_DB_work/02_SQL_Tables/02c_db_table_SQL.sql
-source /workspace/01_DB_work/02_SQL_Tables/02d_db_table_SQL.sql
-
 localhost:
 source C:/xamppV8/htdocs/Repository/01_DB_work/02_SQL_Tables/02a_db_table_SQL.sql;
 
-source C:/xampp/htdocs/01_DB_work/02_SQL_Tables/02a_db_table_SQL.sql;
+source C:/xampp/htdocs/01_DB_work/02_SQL_Tables/02b_db_table_SQL.sql;
 
 List of all client commands:
 Note that all text commands must be first on line and end with ';'
