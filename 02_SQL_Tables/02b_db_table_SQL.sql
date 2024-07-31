@@ -1,11 +1,9 @@
 /* ------  Strukturen ----- */
 
-/* Kommentar 1 */
-#  Kommentar 2
--- Kommentar 3
-
-/* Datenbanken auf Server anzeigen */
-SHOW DATABASES;
+/* 	 
+	NULL wird nicht mehr zugelassen
+    DEFAULT-Werte eintragen
+*/
 
 /* DB boo löschen, falls vorhanden*/
 DROP DATABASE IF EXISTS boo;
@@ -16,22 +14,21 @@ CREATE DATABASE IF NOT EXISTS boo;
 /* DB auswählen */
 USE boo;
 
-CREATE TABLE test
-(
-	name VARCHAR(20),
-	age INT
-);
+/* Tabelle test löschen, falls vorhanden*/
+
+
+/* Tab. test anlegen, falls noch nicht vorhanden*/
+
 
 /* Alle Tabellen in der DB anzeigen */
-SHOW TABLES;
+#SHOW TABLES;
 
 /* Struktur der Tabelle anzeigen */
-DESCRIBE test;
 
 /* ----- Daten ------- */
-INSERT INTO test(name,age) VALUES ("Grizabella",29);
-INSERT INTO test(age,name) VALUES (35,"Alonzo");
-INSERT INTO test VALUES ();
+
+
+-- ABER: Doppelte Datensätze werden zugelassen !
+
 
 /* ---- Inhalte der Tabelle anzeigen ---- */
-SELECT * FROM test;
