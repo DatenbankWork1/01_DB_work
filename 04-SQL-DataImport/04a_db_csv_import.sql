@@ -13,9 +13,12 @@ CREATE TABLE IF NOT EXISTS boo.cats
 
 /* Struktur */
 DESCRIBE boo.cats;
+-- Xampp my.sql 
+-- local_infile=ON
+-- local_infile=1
 
 -- CSV-Datei parsen
-LOAD DATA LOCAL INFILE "04_SQL_DataImport/data/cats_export.csv"
+LOAD DATA LOCAL INFILE "C:/xamppV8/htdocs/Repository/01_DB_work/04-SQL-DataImport/data/cats_export.csv"
 INTO TABLE boo.cats
 FIELDS TERMINATED BY ";" 
 LINES TERMINATED BY "\n" 
