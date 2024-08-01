@@ -32,3 +32,17 @@ VALUES ('michaelsmith7', 'Smith', 'Michael',SHA1('user1234'));
 
 /* Inhalte : Ergebnistabelle */
 SELECT * FROM boo.users;
+
+/* Änderungen an bestehender Tabelle / Struktur*/
+ALTER TABLE boo.users ADD
+    userPLZ VARChAR(5) NOT NULL DEFAULT "00000"
+;
+
+/* Struktur */
+DESCRIBE boo.users;
+Select * boo.users;
+
+/* Update vo Daten */
+-- UPDATE boo.users SET userPLZ = "70367";
+UPDATE boo.users SET userPLZ = "70368" WHERE id=2;
+SELECT * FROM boo.users;
