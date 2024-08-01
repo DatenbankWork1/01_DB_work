@@ -1,0 +1,7 @@
+source 04-SQL-DataImport/04a_db_csv_import.sql
+source 04_SQL_DataImport/04b_db_csv_import.sql
+source 04_SQL_DataImport/04c_db_SELECT.sql
+
+
+source C:/xampp/htdocs/01_DB_work/04_SQL_DataImport/04a_db_csv_import.sql;
+source C:/xampp/htdocs/01_DB_work/02_SQL_Tables/02d_db_table_SQL.sql;
