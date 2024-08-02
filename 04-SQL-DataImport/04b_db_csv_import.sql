@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS boo.cats
 DESCRIBE boo.cats;
 
 -- CSV-Datei parsen
-LOAD DATA LOCAL INFILE "04_SQL_DataImport/data/cats_export_no_id.csv"
+LOAD DATA LOCAL INFILE "C:/xampp/htdocs/01_DB_work/04-SQL-DataImport/data/cats_export_no_id.csv"
 INTO TABLE boo.cats
 FIELDS TERMINATED BY "," 
 LINES TERMINATED BY "\n" 

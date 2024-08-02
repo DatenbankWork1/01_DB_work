@@ -1,6 +1,13 @@
+Xampp Portable
 source 04-SQL-DataImport/04a_db_csv_import.sql
 source 04_SQL_DataImport/04b_db_csv_import.sql
 source 04_SQL_DataImport/04c_db_SELECT.sql
 
 
-source C:/xamppV8/htdocs/Repository/01_DB_work/04-SQL-DataImport/04a_db_csv_import.sql;
+Xampp Install
+source ../../htdocs/01_DB_work/04-SQL-DataImport/04a_db_csv_import.sql
+source ../../htdocs/01_DB_work/04-SQL-DataImport/04b_db_csv_import.sql
+source ../../htdocs/01_DB_work/04-SQL-DataImport/04c_db_SELECT.sql
+
+source C:/xampp/htdocs/01_DB_work/04-SQL-DataImport/04a_db_csv_import.sql;
+
