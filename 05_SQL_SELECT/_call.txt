@@ -8,7 +8,7 @@ source 05_SQL_SELECT/05_6b_que_count.sql
 source 05_SQL_SELECT/05_6c_que_min_max.sql
 source 05_SQL_SELECT/05_6d_que_avg.sql
 
-source ../../htdocs/01_DB_work/05_SQL_SELECT/05_1_parsing_csv.sql
+source ../../htdocs/01_DB_work/05_SQL_SELECT/05_2_que_basic.sql
 
 
 
