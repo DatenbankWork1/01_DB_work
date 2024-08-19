@@ -23,14 +23,14 @@ LIMIT 50
 */
 
 -- welche VERSCHIEDENEN Branchen gibt es?
-/*
+/**/
 SELECT
     DISTINCT industry Branchen
 FROM stocks.ccc
 #ORDER BY industry ASC
 ORDER BY Branchen DESC
 ;
-*/
+
 
 -- welche VERSCHIEDENEN Auszahlungs-Rhythmen gibt es?
 /*
@@ -42,12 +42,12 @@ ORDER BY payouts ASC
 */
 
 -- welche Unternehmen zahlen monatlich?
-SELECT
-    industry Branche,
-    c_name Unternehmen,
-    ticker "DOW-SYMBOL"
-FROM stocks.ccc
-WHERE payouts = 12
-ORDER BY Branche ASC
-;
+-- SELECT
+--     industry Branche,
+--     c_name Unternehmen,
+--     ticker "DOW-SYMBOL"
+-- FROM stocks.ccc
+-- WHERE payouts = 12
+-- ORDER BY Branche ASC
+-- ;
 

@@ -28,7 +28,7 @@ DESCRIBE stocks.ccc;
 
 -- CSV-Datei parsen
 -- LOAD DATA LOCAL INFILE "05_SQL_SELECT/data/ccc_dez_2019.csv"
-LOAD DATA LOCAL INFILE "C:/xampp/htdocs/01_DB_work/05_SQL_SELECT/data/ccc_dez_2019.csv"
+LOAD DATA LOCAL INFILE "C:/xamppV8/htdocs/Repository/01_DB_work/05_SQL_SELECT/data/ccc_dez_2019.csv"
 INTO TABLE stocks.ccc
 FIELDS TERMINATED BY ";" 
 LINES TERMINATED BY "\n" 

@@ -10,5 +10,6 @@ source 05_SQL_SELECT/05_6d_que_avg.sql
 
 source ../../htdocs/01_DB_work/05_SQL_SELECT/05_4_que_filter.sql
 
-
-
+Home: 
+source C:/xamppV8/htdocs/Repository/01_DB_work/05_SQL_SELECT/05_1_parsing_csv.sql;
+source C:/xamppV8/htdocs/Repository/01_DB_work/05_SQL_SELECT/05_6c_que_min_max.sql;
